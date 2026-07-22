@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montacargas Orozco | Renta de Montacargas</title>
+  <meta name="description" content="Montacargas Orozco ofrece renta de montacargas con atención directa por WhatsApp al 664 372 7826. Cotiza disponibilidad para tus maniobras de carga.">
+  <meta name="keywords" content="renta de montacargas, Montacargas Orozco, montacargas en renta, renta de forklift, cotizar montacargas">
+  <meta property="og:title" content="Montacargas Orozco | Renta de Montacargas">
+  <meta property="og:description" content="Renta de montacargas con atención directa por WhatsApp. Equipo real fotografiado de la flota de Montacargas Orozco.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="imagenes/logo-orozco-transparente.png">
+  <link rel="icon" type="image/png" href="imagenes/logo-orozco-transparente.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader" aria-hidden="true">
+  <div class="ld-scan"></div>
+  <div class="ld-logo">
+    <img src="imagenes/logo-orozco-transparente.png" alt="" class="ld-logo-img">
+    <div class="ld-ring"></div>
+  </div>
+  <div class="ld-brand">
+    <p class="ld-name">MONTA<span>CARGAS</span> <em>OROZCO</em></p>
+    <p class="ld-tag">Renta de montacargas</p>
+  </div>
+  <div class="ld-progress">
+    <div class="ld-track"><div class="ld-fill"></div></div>
+    <p class="ld-note">Cargando</p>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav id="nav" role="navigation" aria-label="Menú principal">
+  <div class="nav-wrap">
+    <a href="#" class="logo" aria-label="Montacargas Orozco">
+      <img src="imagenes/logo-orozco-transparente.png" alt="Logo de Montacargas Orozco" class="logo-img">
+      <div class="logo-word">MONTA<span>CARGAS</span> <em>OROZCO</em></div>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about">Nosotros</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#inventario">Flota</a></li>
+      <li><a href="#why">Ventajas</a></li>
+      <li><a href="#contact" class="nav-cta">WhatsApp</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mob" class="mob-menu" role="navigation" aria-label="Menú móvil">
+  <a href="#about">Nosotros</a>
+  <a href="#services">Servicios</a>
+  <a href="#inventario">Flota</a>
+  <a href="#why">Ventajas</a>
+  <a href="#contact">WhatsApp</a>
+</div>
+
+<main>
+
+<!-- HERO -->
+<section id="hero" aria-label="Encabezado principal">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-ov" aria-hidden="true"></div>
+  <canvas id="pcanvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <p class="hero-eyebrow">Montacargas Orozco · Renta de montacargas</p>
+      <h1 class="hero-h1">
+        <span class="h1-line"><span class="h1-inner">Potencia de carga</span></span>
+        <span class="h1-line"><span class="h1-inner">para mover tu operación</span></span>
+        <span class="h1-line h1-accent"><span class="h1-inner">sin detenerla</span></span>
+      </h1>
+      <p class="hero-typewriter" aria-label="Soluciones de renta">
+        <span class="tw-label">Cotiza:</span>
+        <span class="tw-text" id="twText"></span><span class="tw-cursor" aria-hidden="true">|</span>
+      </p>
+      <p class="hero-p">
+        Renta de montacargas con atención directa por WhatsApp. Equipo real de la flota, respuesta clara y enfoque operativo.
+      </p>
+      <div class="hero-btns">
+        <a href="https://wa.me/526643727826?text=Hola%2C%20quiero%20cotizar%20la%20renta%20de%20un%20montacargas%20con%20Montacargas%20Orozco." target="_blank" rel="noopener noreferrer" class="btn-primary">
+          Solicitar Cotización
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="#inventario" class="btn-secondary">Ver Flota Real</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Datos de confianza">
+    <div class="wrap">
+      <div class="stats-row">
+        <div class="stat-col">
+          <span class="stat-val" data-hero-count="1" data-prefix="" data-suffix="">0</span>
+          <span class="stat-lbl">Línea directa de contacto</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">Renta</span>
+          <span class="stat-lbl">Servicio especializado</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">Directo</span>
+          <span class="stat-lbl">Cotización sin intermediarios</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val">664</span>
+          <span class="stat-lbl">Teléfono de WhatsApp</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-deco" aria-hidden="true">
+    <div class="hero-beam"></div>
+  </div>
+  <div class="hero-badge" aria-hidden="true">
+    <span class="hb-dot"></span>
+    <span class="hb-text">Respuesta directa por WhatsApp</span>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section id="trust" aria-label="Enfoque del negocio">
+  <div class="trust-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="trust-row rev">
+      <p class="trust-label">Especialidad</p>
+      <div class="trust-chips">
+        <span class="trust-chip">Renta de Montacargas</span>
+        <span class="trust-chip">Maniobras de Carga</span>
+        <span class="trust-chip">Atención Directa</span>
+        <span class="trust-chip">Fotos Reales</span>
+        <span class="trust-chip">Cotización por WhatsApp</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section bg-white">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img-wrap rev from-l">
+        <div class="about-img-main">
+          <img
+            src="imagenes/WhatsApp Image 2026-07-21 at 9.32.40 PM.jpeg"
+            alt="Montacargas amarillo transportado sobre plataforma de Montacargas Orozco" loading="lazy">
+        </div>
+        <div class="about-accent">
+          <p class="a-num">OROZCO</p>
+          <p class="a-lbl">Flota real</p>
+        </div>
+      </div>
+      <div class="about-text rev">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2 class="heading heading--shine">Montacargas para trabajo real, con trato directo</h2>
+        <p>Montacargas Orozco se dedica a la renta de montacargas para operaciones que necesitan mover carga con rapidez, orden y comunicación directa.</p>
+        <p>La cotización se concentra en un canal simple: WhatsApp o llamada al número confirmado del negocio.</p>
+        <div class="about-stats">
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="1" data-prefix="" data-suffix=""></p>
+            <p class="a-stat-l">Giro especializado</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">Renta</p>
+            <p class="a-stat-l">Servicio principal</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">Directo</p>
+            <p class="a-stat-l">Comunicación clara</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">WA</p>
+            <p class="a-stat-l">Contacto directo</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow">Servicios</p>
+      <h2 class="heading heading--shine">Servicio directo, claro y sin vueltas</h2>
+      <p class="sub">Una oferta simple: renta de montacargas, atención directa y comunicación clara desde el primer contacto.</p>
+    </div>
+    <div class="svc-grid">
+
+      <div class="svc-card rev d1">
+        <span class="svc-num" aria-hidden="true">01</span>
+        <h3>Renta de montacargas</h3>
+        <p>Equipo para maniobras de carga, descarga y movimiento operativo dentro de patios, bodegas o zonas de trabajo.</p>
+        <p class="svc-models">Contacto directo: 664 372 7826</p>
+        <div class="svc-tags">
+          <span class="tag tag-gold">Carga</span>
+          <span class="tag tag-gold">Maniobra</span>
+          <span class="tag tag-gold">Operación</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d2">
+        <span class="svc-num" aria-hidden="true">02</span>
+        <h3>Atención directa</h3>
+        <p>Comunicación por el canal confirmado del negocio, sin formularios largos ni intermediarios.</p>
+        <p class="svc-models">WhatsApp: 664 372 7826</p>
+        <div class="svc-tags">
+          <span class="tag tag-gold">Rápido</span>
+          <span class="tag tag-gold">Directo</span>
+          <span class="tag tag-gold">Claro</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d3">
+        <span class="svc-num" aria-hidden="true">03</span>
+        <h3>Información objetiva</h3>
+        <p>La página comunica únicamente información confirmada del negocio y evita datos no verificados.</p>
+        <p class="svc-models">Sin información inventada</p>
+        <div class="svc-tags">
+          <span class="tag tag-gold">Real</span>
+          <span class="tag tag-gold">Industrial</span>
+          <span class="tag tag-gold">Confiable</span>
+        </div>
+      </div>
+
+      <div class="svc-card rev d4">
+        <span class="svc-num" aria-hidden="true">04</span>
+        <h3>Uso operativo</h3>
+        <p>Ideal para resolver necesidades temporales de carga sin adquirir equipo propio.</p>
+        <p class="svc-models">Renta según solicitud</p>
+        <div class="svc-tags">
+          <span class="tag tag-gold">Temporal</span>
+          <span class="tag tag-gold">Flexible</span>
+          <span class="tag tag-gold">Productivo</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- INVENTARIO -->
+<section id="inventario" class="section bg-white">
+  <div class="wrap">
+    <div class="prod-header rev">
+      <div>
+        <p class="eyebrow">Usos frecuentes</p>
+        <h2 class="heading heading--shine">Montacargas para trabajo operativo</h2>
+      </div>
+      <a href="#contact" class="btn-outline">Cotizar Renta</a>
+    </div>
+    <div class="prod-grid prod-grid--simple">
+
+      <div class="prod-card rev d1">
+        <h3>Carga y descarga</h3>
+        <p>Apoyo para movimiento de materiales, mercancía o equipo en maniobras puntuales.</p>
+        <a class="prod-pill" href="https://wa.me/526643727826?text=Hola%2C%20quiero%20cotizar%20la%20renta%20de%20un%20montacargas%20con%20Montacargas%20Orozco." target="_blank" rel="noopener noreferrer">Cotizar este uso</a>
+      </div>
+
+      <div class="prod-card rev d2">
+        <h3>Patios y bodegas</h3>
+        <p>Solución para operaciones donde se requiere mover carga dentro de áreas de trabajo.</p>
+        <a class="prod-pill" href="https://wa.me/526643727826?text=Hola%2C%20quiero%20cotizar%20la%20renta%20de%20un%20montacargas%20con%20Montacargas%20Orozco." target="_blank" rel="noopener noreferrer">Cotizar este uso</a>
+      </div>
+
+      <div class="prod-card rev d3">
+        <h3>Renta temporal</h3>
+        <p>Una alternativa práctica cuando necesitas capacidad de carga sin comprar equipo propio.</p>
+        <a class="prod-pill" href="https://wa.me/526643727826?text=Hola%2C%20necesito%20rentar%20un%20montacargas%20para%20una%20maniobra.%20%C2%BFMe%20pueden%20apoyar%3F" target="_blank" rel="noopener noreferrer">Solicitar renta</a>
+      </div>
+
+    </div>
+    <p class="prod-note rev">El servicio se confirma directamente con Montacargas Orozco según disponibilidad.</p>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section bg-navy">
+  <div class="why-bg" aria-hidden="true"></div>
+  <canvas id="pcanvasWhy" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="why-img-wrap rev from-r">
+        <div class="why-img-main">
+          <img
+            src="imagenes/sdaf.jpeg"
+            alt="Montacargas amarillo de Montacargas Orozco en patio de trabajo" loading="lazy">
+        </div>
+        <div class="why-img-badge">
+          <p class="wib-n">01</p>
+          <p class="wib-l">Negocio especializado</p>
+        </div>
+      </div>
+      <div class="why-content rev">
+        <p class="eyebrow eyebrow--white">Por qué elegirnos</p>
+        <h2 class="heading heading--white heading--shine-dark">Robustez industrial, información precisa</h2>
+        <p class="sub sub--white">Un sitio enfocado en mostrar el servicio sin agregar datos no confirmados.</p>
+        <div class="benefit-list">
+          <div class="benefit">
+            <span class="ben-num" aria-hidden="true">01</span>
+            <div>
+              <h4>Especialistas en montacargas</h4>
+              <p>El giro confirmado del negocio es la renta de montacargas, sin mezclar categorías ajenas al servicio.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <span class="ben-num" aria-hidden="true">02</span>
+            <div>
+              <h4>Canal confirmado</h4>
+              <p>El teléfono publicado corresponde al único dato de contacto proporcionado: 664 372 7826.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <span class="ben-num" aria-hidden="true">03</span>
+            <div>
+              <h4>Imágenes reales</h4>
+              <p>La página usa fotos del proyecto, no fotografías genéricas que resten confianza.</p>
+            </div>
+          </div>
+          <div class="benefit">
+            <span class="ben-num" aria-hidden="true">04</span>
+            <div>
+              <h4>Contenido concreto</h4>
+              <p>La navegación prioriza servicio, fotos reales y contacto, sin secciones de relleno.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section id="numbers">
+  <div class="numbers-bg" aria-hidden="true"></div>
+  <div class="numbers-ov" aria-hidden="true"></div>
+  <canvas id="pcanvasNumbers" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow eyebrow--white">Cómo funciona</p>
+      <h2 class="heading heading--white heading--shine-dark">Cotiza tu montacargas en 3 pasos</h2>
+    </div>
+    <div class="numbers-grid">
+      <div class="number-item rev d1">
+        <p class="num-v">Paso 01</p>
+        <p class="num-l">Cuéntanos por WhatsApp qué tipo de maniobra necesitas realizar.</p>
+      </div>
+      <div class="number-item rev d2">
+        <p class="num-v">Paso 02</p>
+        <p class="num-l">Comparte fecha, zona y detalles de carga para revisar disponibilidad.</p>
+      </div>
+      <div class="number-item rev d3">
+        <p class="num-v">Paso 03</p>
+        <p class="num-l">Confirma condiciones de renta directamente con Montacargas Orozco.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
+<section id="galeria">
+  <canvas id="pcanvasGaleria" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="brands-head rev">
+      <p class="eyebrow eyebrow--white">Galería real</p>
+      <h2 class="heading heading--white heading--shine-dark">Fotografías de la flota</h2>
+      <p class="brands-sub">Tres vistas reales del equipo para revisar exterior, proporción y detalles visibles.</p>
+    </div>
+    <div class="brands-grid">
+      <figure class="brand-card rev d1">
+        <div class="brand-card-inner">
+          <img src="imagenes/123.jpeg" alt="Montacargas amarillo de Montacargas Orozco con vista posterior y contrapeso visible" loading="lazy">
+        </div>
+        <figcaption>Vista posterior de unidad amarilla; referencia visual del cuerpo, contrapeso y estado general exterior.</figcaption>
+      </figure>
+      <figure class="brand-card rev d2">
+        <div class="brand-card-inner">
+          <img src="imagenes/asdf.jpeg" alt="Montacargas verde de Montacargas Orozco con horquillas frontales en patio" loading="lazy">
+        </div>
+        <figcaption>Unidad verde con horquillas frontales; fotografía útil para identificar proporción, cabina y configuración exterior.</figcaption>
+      </figure>
+      <figure class="brand-card rev d3">
+        <div class="brand-card-inner">
+          <img src="imagenes/dfg.jpeg" alt="Montacargas amarillo de Montacargas Orozco con tanque posterior visible" loading="lazy">
+        </div>
+        <figcaption>Vista lateral posterior con tanque visible; imagen enfocada en detalles operativos y condición exterior.</figcaption>
+      </figure>
+    </div>
+    <p class="brands-note rev">Fotografías de referencia tomadas del material visual proporcionado para el proyecto.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section bg-off">
+  <div class="wrap">
+    <div class="contact-grid">
+
+      <div class="contact-info rev from-l">
+        <div class="contact-info-bg" aria-hidden="true"></div>
+        <div class="contact-info-content">
+          <p class="eyebrow eyebrow--white">Contacto</p>
+          <h2 class="heading heading--white">Solicita tu cotización por WhatsApp</h2>
+          <p class="sub sub--white" style="margin-bottom:32px">Completa el formulario y se abrirá WhatsApp con un mensaje listo para enviar a Montacargas Orozco.</p>
+          <div class="c-item">
+            <div class="c-icon" aria-hidden="true">☎</div>
+            <div>
+              <p class="c-label">Teléfono / WhatsApp</p>
+              <p class="c-value"><a href="tel:6643727826">664 372 7826</a></p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon" aria-hidden="true">↗</div>
+            <div>
+              <p class="c-label">WhatsApp directo</p>
+              <p class="c-value"><a href="https://wa.me/526643727826" target="_blank" rel="noopener noreferrer">+52 664 372 7826</a></p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon" aria-hidden="true">•</div>
+            <div>
+              <p class="c-label">Ubicación y horario</p>
+              <p class="c-value">Confirmar directamente por WhatsApp</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev">
+        <div class="form-wrap">
+          <h3>Formulario de cotización</h3>
+          <p class="form-sub">Al enviarlo se abrirá WhatsApp con tu mensaje listo.</p>
+          <form id="cForm" novalidate>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="fn">Nombre completo *</label>
+                <input class="fi" type="text" id="fn" name="nombre" placeholder="Tu nombre completo" required autocomplete="name">
+              </div>
+              <div class="fg">
+                <label class="fl" for="ft">Teléfono *</label>
+                <input class="fi" type="tel" id="ft" name="telefono" placeholder="Tu teléfono" required autocomplete="tel">
+              </div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fs">Servicio *</label>
+              <select class="fi" id="fs" name="tipo" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Renta de montacargas">Renta de montacargas</option>
+                <option value="Cotización de disponibilidad">Cotización de disponibilidad</option>
+                <option value="Información general">Información general</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fm">Cuéntanos qué necesitas</label>
+              <textarea class="fi" id="fm" name="mensaje" rows="3" placeholder="Fecha, zona, tipo de maniobra o detalle de carga..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+              Enviar por WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="map-card rev">
+      <div class="map-link no-map" aria-label="Información de ubicación no proporcionada">
+        <span class="map-tag">Mapa no incluido: no se proporcionó dirección exacta</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <img src="imagenes/logo-orozco-transparente.png" alt="Logo de Montacargas Orozco" class="foot-logo-img">
+          <div class="logo-word">MONTA<span>CARGAS</span> <em>OROZCO</em></div>
+        </div>
+        <p class="foot-desc">Renta de montacargas con atención directa por WhatsApp. Información breve, clara y basada en datos confirmados.</p>
+        <div class="foot-social">
+          <a href="https://wa.me/526643727826" target="_blank" rel="noopener noreferrer" aria-label="Montacargas Orozco en WhatsApp" class="foot-social-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="foot-col-title">Navegación</p>
+        <ul class="foot-links">
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#inventario">Flota</a></li>
+          <li><a href="#why">Ventajas</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Renta</p>
+        <ul class="foot-links">
+          <li><a href="#services">Renta de montacargas</a></li>
+          <li><a href="#numbers">Cómo cotizar</a></li>
+          <li><a href="#galeria">Galería real</a></li>
+          <li><a href="#contact">Solicitar cotización</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Contacto</p>
+        <ul class="foot-links">
+          <li><a href="tel:6643727826">664 372 7826</a></li>
+          <li><a href="https://wa.me/526643727826" target="_blank" rel="noopener noreferrer">WhatsApp directo</a></li>
+          <li><a href="#contact">Formulario</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 <span>Montacargas Orozco</span>. Todos los derechos reservados.</p>
+      <p>Renta de montacargas</p>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING ACTION BUTTONS -->
+<div class="fab-stack">
+  <div class="fab-item">
+    <span class="fab-tip">Escríbenos por WhatsApp</span>
+    <a href="https://wa.me/526643727826?text=Hola%2C%20quiero%20cotizar%20la%20renta%20de%20un%20montacargas%20con%20Montacargas%20Orozco."
+       target="_blank"
+       rel="noopener noreferrer"
+       class="fab-btn wa-btn"
+       aria-label="Contactar a Montacargas Orozco por WhatsApp">
+      <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
+        <path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
