@@ -463,6 +463,14 @@ button, input, select, textarea { font: inherit; }
 }
 .about-img-main img, .why-img-main img { width: 100%; height: min(560px, 64vw); object-fit: cover; transform: scale(1.02); transition: transform .8s ease; }
 .about-img-main:hover img, .why-img-main:hover img { transform: scale(1.08); }
+.about-img-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 4px;
+  background: var(--off);
+}
+.about-img-grid img { height: min(278px, 32vw); }
 .about-accent, .why-img-badge {
   position: absolute;
   right: -24px;
